@@ -12,9 +12,11 @@ function populateUFs() {
 
 populateUFs()
 
-function getCities() {
+function getCities(event) {
     const selectCity = document.querySelector("select[name=city]")
-    const stateInput = document.querySelector("select[name=state]")
+    const stateInput = document.querySelector("input[name=state]")
+
+
 
     const ufValue = event.target.value
 
@@ -26,12 +28,18 @@ function getCities() {
     fetch(url)
         .then(res => res.json())
         .then(cities => {
+            selectCity.innerHTML = ""
+
             for (const city of cities) {
-                selectCity.innerHTML += `<option value="${city.id}"> ${city.nome}</option>`
+                selectCity.innerHTML += `<option value="${city.id}">${city.nome}</option>`
             }
 
+            // It will make the 'city' options available to be chosen from drop down menu
             selectCity.disabled = false
         })
 }
 
-document.querySelector("select[name=uf").addEventListener("change", getCities)
+
+document
+    .querySelector("select[name=uf]")
+    .addEventListener("change", getCities)
