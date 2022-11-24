@@ -1,0 +1,100 @@
+#home-page {
+    height: 100vh;
+    background: url(/images/home-background.svg) no-repeat;
+    /* 35vw = position x, while bottom is = position y */
+    background-position: 35vw bottom;
+}
+
+#home-page .content {
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#home-page header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home-page header a {
+    display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+#home-page header a span {
+    margin-right: 16px;
+    display: flex;
+    background-image: url(../images/log-in.svg);
+    width: 20px;
+    height: 20px;
+}
+
+#home-page main {
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home-page h1 {
+    font-size: 54px;
+}
+
+#home-page main p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+
+#home-page main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: var(--primary-color);
+    transition: 400ms;
+}
+
+#home-page main a:hover {
+    background-color: #2fb86e;
+}
+
+
+/* Always set width, height and display for an "span" element in order to "appear". */
+
+#home-page main a span {
+    width: 72px;
+    height: 72px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-page main a span::after {
+    content: "";
+    background-image: url(../images/search.svg);
+    width: 20px;
+    height: 20px;
+}
+
+
+/* flex 1 will make the strong element take up all the space inside its line */
+
+#home-page main a strong {
+    color: #ffffff;
+    flex: 1;
+    text-align: center;
+}

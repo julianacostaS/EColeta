@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a collection hub</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/create-point.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+</head>
+
+<body>
+    <div id="page-create-point">
+
+        <header>
+            <img src="/images/logo.svg" alt="Logo" />
+            <a href="https://www.google.com">
+                <span></span> Back to homepage</a>
+        </header>
+
+        <form action="">
+            <h1>Registration of <br>hub collection</h1>
+            <fieldset>
+                <legend>
+                    <h2>Hub collection details</h2>
+                </legend>
+
+                <div class="field">
+                    <label for="name">Name of the hub</label>
+                    <input type="text" name="">
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="address">Address</label>
+                        <input type="text" type="address">
+                    </div>
+                    <div class="field">
+                        <label for="number">Number</label>
+                        <input type="text" type="number">
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="state">State</label>
+                        <select name="uf">
+                                <option value="">Select a State</option>
+                            </select>
+
+                        <!-- It will make the state id be hidden, intead, it will show "state" in the search bar on the browser. -->
+                        <input type="hidden" name="state">
+                    </div>
+
+                    <div class="field">
+                        <label for="city">City</label>
+                        <select name="city" disabled>
+                                <option value="">Select a City</option>
+                            </select>
+                    </div>
+
+                </div>
+            </fieldset>
+
+
+
+
+
+
+
+
+
+            <legend>
+                <h2>Itens to collect</h2>
+            </legend>
+            <fieldset>
+
+            </fieldset>
+
+            <button type="submit">Register collection hub</button>
+        </form>
+    </div>
+
+    <script src="./scripts/create-point.js"></script>
+</body>
+
+</html>
