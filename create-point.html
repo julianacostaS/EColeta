@@ -28,17 +28,17 @@
 
                 <div class="field">
                     <label for="name">Name of the hub</label>
-                    <input type="text" name="">
+                    <input type="text" name="" required>
                 </div>
 
                 <div class="field-group">
                     <div class="field">
                         <label for="address">Address</label>
-                        <input type="text" type="address">
+                        <input type="text" type="address" required>
                     </div>
                     <div class="field">
                         <label for="number">Number</label>
-                        <input type="text" type="number">
+                        <input type="text" type="number" required>
                     </div>
                 </div>
                 <div class="field-group">
@@ -49,12 +49,12 @@
                             </select>
 
                         <!-- It will make the state ID be hidden, instead, it will show "state" in the search bar on the browser. -->
-                        <input type="hidden" name="state">
+                        <input type="hidden" name="state" required>
                     </div>
 
                     <div class="field">
                         <label for="city">City</label>
-                        <select name="city" disabled>
+                        <select name="city" disabled required>
                                 <option value="">Select a City</option>
                             </select>
                     </div>
@@ -64,21 +64,61 @@
 
 
 
-
-
-
-
-
-
-            <legend>
-                <h2>Itens to collect</h2>
-            </legend>
             <fieldset>
+
+                <legend>
+                    <h2>Itens to collect</h2>
+                </legend>
+
+                <div class="items-grid">
+                    <li data-id="1">
+                        <img src="./images/lampadas.svg" alt="Lamps">
+                        <span>Lamps</span>
+                    </li>
+                </div>
+
+                <div class="items-grid">
+                    <li data-id="2">
+                        <img src="./images/baterias.svg" alt="Bateries">
+                        <span>Bateries</span>
+                    </li>
+                </div>
+
+                <div class="items-grid">
+                    <li data-id="3">
+                        <img src="./images/papeis-papelao.svg" alt="Paper&Cardboard">
+                        <span>Paper & Cardboard</span>
+                    </li>
+                </div>
+
+                <div class="items-grid">
+                    <li data-id="4">
+                        <img src="./images/eletronicos.svg" alt="Eletronic
+                                waste">
+                        <span>Eletronic waste</span>
+                    </li>
+                </div>
+
+                <div class="items-grid">
+                    <li data-id="5">
+                        <img src="./images/organicos.svg" alt="Organics">
+                        <span>Organics</span>
+                    </li>
+                </div>
+
+                <div class="items-grid">
+                    <li data-id="6">
+                        <img src="./images/oleo.svg" alt="Oil">
+                        <span>Kitchen oil</span>
+                    </li>
+                </div>
+
 
             </fieldset>
 
             <button type="submit">Register collection hub</button>
         </form>
+
     </div>
 
     <script src="./scripts/create-point.js"></script>

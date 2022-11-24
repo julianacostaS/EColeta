@@ -25,16 +25,21 @@ function getCities(event) {
 
     const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios?orderBy=nome`
 
+
+    selectCity.innerHTML = "<option value>Select a city</option>"
+        // It will make the 'city' options unavailable until a new state is selected
+    selectCity.disabled = true
+
     fetch(url)
         .then(res => res.json())
         .then(cities => {
-            selectCity.innerHTML = ""
+
 
             for (const city of cities) {
-                selectCity.innerHTML += `<option value="${city.id}">${city.nome}</option>`
+                selectCity.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
             }
 
-            // It will make the 'city' options available to be chosen from drop down menu
+            // It will make the 'city' options available to be chosen from drop down menu after selecting a state
             selectCity.disabled = false
         })
 }
