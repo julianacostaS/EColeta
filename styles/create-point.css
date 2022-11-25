@@ -38,6 +38,7 @@ form {
 
 form h1 {
     font-size: 36px;
+    color: var(--title-color);
 }
 
 form fieldset {
@@ -51,6 +52,7 @@ form legend {
 
 form legend h2 {
     font-size: 24px;
+    color: var(--title-color);
 }
 
 form .field {
@@ -71,12 +73,12 @@ form select {
     padding: 16px 24px;
     font-size: 16px;
     border-radius: 8px;
-    /* outline:none removes the line that outlines around the field the user are in*/
+    /* outline:none removes the line that outlines around the field the user are in */
     /* outline: none; */
 }
 
 
-/* Chrome sometimes doesn't display the properties set for "select", setting 'none' will reset all the browser default settings for it. */
+/* Chrome sometimes doesn't display the properties set for "select", setting 'none', will reset all the browser default settings for it. */
 
 form select {
     -webkit-appeareance: none;
@@ -113,18 +115,18 @@ form button:hover {
     background-color: #2fb86e;
 }
 
-.items-grid {
+#fieldset-two {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
 }
 
-.items-grid li {
-    background-color: #f5f5f5;
+#fieldset-two li {
+    background-color: #E1FAEC;
     list-style: none;
     border: 2px solid #f5f5f5;
     border-radius: 8px;
-    height: 180px;
+    height: 130px;
     padding: 32px 24px 16px;
     display: flex;
     flex-direction: column;
@@ -132,4 +134,17 @@ form button:hover {
     justify-content: space-between;
     text-align: center;
     cursor: pointer;
+}
+
+.items-grid li span {
+    margin-top: 12px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
+#fieldset-two li.selected {
+    background: #f0f0f5;
+    border: 1px solid var(--title-color);
 }

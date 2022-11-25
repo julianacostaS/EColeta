@@ -45,6 +45,7 @@
 
 #home-page h1 {
     font-size: 54px;
+    color: var(--title-color);
 }
 
 #home-page main p {
