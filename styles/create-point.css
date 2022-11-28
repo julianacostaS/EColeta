@@ -148,3 +148,8 @@ form button:hover {
     background: #f0f0f5;
     border: 1px solid var(--title-color);
 }
+
+#fieldset-two li img,
+#fieldset-two li span {
+    pointer-events: none;
+}
