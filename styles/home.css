@@ -1,6 +1,6 @@
 #home-page {
     height: 100vh;
-    background: url(/images/home-background.svg) no-repeat;
+    background: url(../images/home-background.svg) no-repeat;
     /* 35vw = position x, while bottom is = position y */
     background-position: 35vw bottom;
 }

@@ -1,3 +1,12 @@
+@media (max-width: 500px) {
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+    #page-search-results .cards img {
+        height: 210px;
+    }
+}
+
 @media (max-width: 900px) {
     #home-page {
         background-position-x: 70vw;
