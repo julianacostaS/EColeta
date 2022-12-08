@@ -12,7 +12,6 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-
 <br>
 
 <p align="center">
@@ -22,10 +21,10 @@
 <br>
 
 <p align="center">
-  <img alt="Ecoleta" src="https://user-images.githubusercontent.com/49543157/206362009-b894196d-bde8-4057-b969-63b0983bc8d0.png" width="100%">
+  <img alt="Ecoleta" src="https://user-images.githubusercontent.com/49543157/206362511-d14150a3-84be-4d32-9e63-6e60732d03ca.png" width="100%">
 </p>
 
-## 🚀 Tecnologies
+## 🚀 Technologies
 
 This project was developed using the following technologies:
 
