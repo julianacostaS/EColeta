@@ -11,11 +11,6 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
-</p>
 
 <br>
 
@@ -32,14 +27,14 @@ This project was developed using the following technologies:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 
-## 💻 Projeto
+## 💻 Project
 
 Ecoleta is a marketplace to help people to find collection recycle hubs in an efficient way.
 
 
 ## 🔖 Layout
 
-You can check the design of the project in [this link](<https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A546>). You will require to have an account in [Figma](http://figma.com/)in order to access it.
+You can check the design of the project in [this link](<https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A546>). You will require to have an account in [Figma](http://figma.com/) in order to access it.
 
 
 ## :memo: License
