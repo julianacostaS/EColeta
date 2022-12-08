@@ -7,8 +7,8 @@
 
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -19,6 +19,11 @@
   <img alt="Ecoleta" src="https://user-images.githubusercontent.com/49543157/206360601-76e3964f-f5f8-4a9a-8e7e-79e5f7296730.png" width="100%">
 </p>
 
+<br>
+
+<p align="center">
+  <img alt="Ecoleta" src="https://user-images.githubusercontent.com/49543157/206362009-b894196d-bde8-4057-b969-63b0983bc8d0.png" width="100%">
+</p>
 
 ## 🚀 Tecnologies
 
