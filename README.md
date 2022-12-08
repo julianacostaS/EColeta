@@ -2,7 +2,8 @@
  This is a project part of a course by the company 'Rocketseat'. It is a service to help people to find or register a hub in their city for collection of recycles items. Among the tools and technologies used are, API integration & Javascript.
  
 <h1 align="center">
-    <img alt="Ecoleta" title="Ecoleta" src="https://user-images.githubusercontent.com/49543157/206358556-11e40636-17e1-44f1-b5db-593cc8d1a5d4.png" width="220px" />
+    <img alt="Ecoleta" title="Ecoleta" src="https://user-images.githubusercontent.com/49543157/206359185-732dabcb-7d5e-40fe-a467-97d736cb0096.png" width="220px" />
+
 </h1>
 
 <p align="center">
