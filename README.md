@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="Ecoleta" src="![image](https://user-images.githubusercontent.com/49543157/206358498-41aa10ae-2775-41f3-81f0-4a9c758398d7.png)" width="100%">
+  <img alt="Ecoleta" src="https://user-images.githubusercontent.com/49543157/206358498-41aa10ae-2775-41f3-81f0-4a9c758398d7.png" width="100%">
 </p>
 
 ## 🚀 Tecnologies
