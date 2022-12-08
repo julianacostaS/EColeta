@@ -1,5 +1,5 @@
 # EColeta
- This is a project part of a course by the company 'Rocketseat'. It is a service to help people to find or register a hub in their city for collection of recycles items.
+ This is a project part of a course by the company 'Rocketseat'. It is a service to help people to find or register a hub in their city for collection of recycles items. Among the tools and technologies used are, API integration & Javascript.
  
 <h1 align="center">
     <img alt="Ecoleta" title="Ecoleta" src=".github/ecoleta.svg" width="220px" />
@@ -34,11 +34,12 @@ This project was developed using the following technologies:
 
 ## 💻 Projeto
 
-O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente.
+Ecoleta is a marketplace to help people to find collection recycle hubs in an efficient way.
+
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](<https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A546>). Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+You can check the design of the project in [this link](<https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A546>). You will require to have an account in [Figma](http://figma.com/)in order to access it.
 
 
 ## :memo: License
